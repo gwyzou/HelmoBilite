@@ -1,0 +1,22 @@
+﻿@model string
+
+@{
+    ViewBag.Title = "Error";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <main>
+        <div class="text-center">
+            <img src="~/images/error_truck.png" class="img-fluid "/>
+            <hr/>
+            <h2 class="text-danger text-center">An error occurred while processing your request.</h2>
+            <hr/>
+            <br/>
+            <br/>
+            <h3>What we know : </h3>
+            <p>@Model</p>
+        </div>
+    </main>
+</div>

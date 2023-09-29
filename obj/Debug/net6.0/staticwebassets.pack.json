@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HelmoBilite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HelmoBilite.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\ProfilePicture\\3cc2dc9d-8e39-4fd5-898c-27dd04710e12",
+      "PackagePath": "staticwebassets\\images\\ProfilePicture"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\ProfilePicture\\831e10f8-d9e0-436e-85b1-0e3d42d51dba",
+      "PackagePath": "staticwebassets\\images\\ProfilePicture"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\ProfilePicture\\9d352816-f02d-416e-a6d8-d6a0d0619a0d",
+      "PackagePath": "staticwebassets\\images\\ProfilePicture"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\ProfilePicture\\9f6ed98c-6932-4f0e-8466-4bc3d045e28d",
+      "PackagePath": "staticwebassets\\images\\ProfilePicture"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\ProfilePicture\\client_profile.png",
+      "PackagePath": "staticwebassets\\images\\ProfilePicture\\client_profile.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\ProfilePicture\\dee9ef0f-3407-486c-8094-8af6587e18ad",
+      "PackagePath": "staticwebassets\\images\\ProfilePicture"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\ProfilePicture\\dispatcher_profile.png",
+      "PackagePath": "staticwebassets\\images\\ProfilePicture\\dispatcher_profile.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\ProfilePicture\\driver_profile.png",
+      "PackagePath": "staticwebassets\\images\\ProfilePicture\\driver_profile.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\collaborator\\abbott.png",
+      "PackagePath": "staticwebassets\\images\\collaborator\\abbott.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\collaborator\\astonmartin.png",
+      "PackagePath": "staticwebassets\\images\\collaborator\\astonmartin.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\collaborator\\chu.png",
+      "PackagePath": "staticwebassets\\images\\collaborator\\chu.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\collaborator\\garudalinux.png",
+      "PackagePath": "staticwebassets\\images\\collaborator\\garudalinux.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\collaborator\\image-removebg-preview(1).png",
+      "PackagePath": "staticwebassets\\images\\collaborator\\image-removebg-preview(1).png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\collaborator\\uliege.png",
+      "PackagePath": "staticwebassets\\images\\collaborator\\uliege.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\error_truck.png",
+      "PackagePath": "staticwebassets\\images\\error_truck.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\trucks\\ca_rounded.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\ca_rounded.jpg"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\trucks\\fleet_truck.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\fleet_truck.jpg"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\trucks\\fleet_truck_rounded.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\fleet_truck_rounded.jpg"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\trucks\\trucksPicture\\Iveco_stralis.png",
+      "PackagePath": "staticwebassets\\images\\trucks\\trucksPicture\\Iveco_stralis.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\trucks\\trucksPicture\\iveco_eurocargo.png",
+      "PackagePath": "staticwebassets\\images\\trucks\\trucksPicture\\iveco_eurocargo.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\trucks\\trucksPicture\\mann_tgx.png",
+      "PackagePath": "staticwebassets\\images\\trucks\\trucksPicture\\mann_tgx.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\trucks\\trucksPicture\\mercedes_actorsF.png",
+      "PackagePath": "staticwebassets\\images\\trucks\\trucksPicture\\mercedes_actorsF.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\trucks\\trucksPicture\\mercedes_actrosL.png",
+      "PackagePath": "staticwebassets\\images\\trucks\\trucksPicture\\mercedes_actrosL.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\trucks\\trucksPicture\\renault_truckT.png",
+      "PackagePath": "staticwebassets\\images\\trucks\\trucksPicture\\renault_truckT.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\trucks\\trucksPicture\\theirTruck.png",
+      "PackagePath": "staticwebassets\\images\\trucks\\trucksPicture\\theirTruck.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\trucks\\trucksPicture\\volvo_fh.png",
+      "PackagePath": "staticwebassets\\images\\trucks\\trucksPicture\\volvo_fh.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\trucks\\trucksPicture\\volvo_fl.png",
+      "PackagePath": "staticwebassets\\images\\trucks\\trucksPicture\\volvo_fl.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\images\\trucks\\trucksPicture\\volvo_truckT.png",
+      "PackagePath": "staticwebassets\\images\\trucks\\trucksPicture\\volvo_truckT.png"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Cloud\\2022-2023 Helmo\\Q2\\B2-UE19-Développement web avancé\\trueProj\\HelmoBilite\\HelmoBilite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HelmoBilite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.HelmoBilite.props",
+      "PackagePath": "build\\HelmoBilite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.HelmoBilite.props",
+      "PackagePath": "buildMultiTargeting\\HelmoBilite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.HelmoBilite.props",
+      "PackagePath": "buildTransitive\\HelmoBilite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

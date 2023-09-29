@@ -1,0 +1,49 @@
+﻿
+
+
+<ul class="nav nav-pills flex-column">
+    <!-- <li> of index same for all roles-->
+    <li class="nav-item"><a class="nav-link @HelmoBilite.Views.DeliveryNavManager.DeliverySubMenuNavClass(ViewContext,"Index")" asp-area="" asp-controller="Delivery" asp-action="Index">All Deliveries</a></li>
+
+
+@if (User.IsInRole("Client"))
+{
+        // EDIT IF NOT ACCEPTED
+        <li class="nav-item"><a class="nav-link @HelmoBilite.Views.DeliveryNavManager.PageNavClass(ViewContext,"Pending")" asp-area="" asp-controller="Delivery" asp-action="ClientAllPending">Pending</a></li>
+        <li class="nav-item"><a class="nav-link @HelmoBilite.Views.DeliveryNavManager.PageNavClass(ViewContext,"Terminated")" asp-area="" asp-controller="Delivery" asp-action="ClientAllTerminated">Finished</a></li>
+
+        <li class="nav-item"><a class="nav-link @HelmoBilite.Views.DeliveryNavManager.PageNavClass(ViewContext,"Create")" asp-area="" asp-controller="Delivery" asp-action="Create">Add new</a></li>
+
+}
+@if (User.IsInRole("Driver"))
+{
+    //SEE GIVEN DELIVERY (CALLENDAR)
+    //TELL DELIVERY IS DONE OR NOT
+        <li class="nav-item"><a class="nav-link @HelmoBilite.Views.DeliveryNavManager.PageNavClass(ViewContext,"Calendar")" asp-area="" asp-controller="Delivery" asp-action="Calendar">Calendar</a></li>
+
+}
+@if (User.IsInRole("Dispatcher"))
+{
+        //SEE UNASSIGNED DELIVERY + ASSIGN TO DRIVER
+        //REFRESH BUTTON
+        <li class="nav-item"><a class="nav-link @HelmoBilite.Views.DeliveryNavManager.PageNavClass(ViewContext,"Waiting Assignation")" asp-area="" asp-controller="Delivery" asp-action="AllWaitingAssignation">Waiting Assignation</a></li>
+        <li class="nav-item"><a class="nav-link @HelmoBilite.Views.DeliveryNavManager.PageNavClass(ViewContext,"Done Assignation")" asp-area="" asp-controller="Delivery" asp-action="AllDoneAssignation">Done Assignation</a></li>
+}
+@if (User.IsInRole("Admin"))
+{
+        //EDIT CLIENT (Tag)
+        <li class="nav-item"><a class="nav-link @HelmoBilite.Views.DeliveryNavManager.PageNavClass(ViewContext,"Index Client")" asp-area="" asp-controller="Clients" asp-action="Index">Clients</a></li>
+
+        //TODO
+        //EDIT DRIVER (permis + contrainte)
+        <li class="nav-item"><a class="nav-link @HelmoBilite.Views.DeliveryNavManager.PageNavClass(ViewContext,"Index Driver")" asp-area="" asp-controller="Drivers" asp-action="Index">Drivers</a></li>
+
+        //CRUD TRUCK
+        <li class="nav-item"><a class="nav-link @HelmoBilite.Views.DeliveryNavManager.PageNavClass(ViewContext,"Index Trucks")" asp-area="" asp-controller="Truck" asp-action="Index">Trucks</a></li>
+
+    
+        //DELIVERY STATS
+        <li class="nav-item"><a class="nav-link @HelmoBilite.Views.DeliveryNavManager.PageNavClass(ViewContext,"Statistics")" asp-area="" asp-controller="Delivery" asp-action="Statistics">Stats</a></li>
+
+}
+</ul>

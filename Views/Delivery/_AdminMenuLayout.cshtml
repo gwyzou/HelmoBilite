@@ -1,0 +1,11 @@
+﻿@model IEnumerable<HelmoBilite.Models.Delivery>
+
+@{
+    var controllerName = ViewContext.RouteData.Values["controller"]?.ToString();
+    Layout = "~/Views/Shared/_DeliveryLayout.cshtml";
+}
+@if (User.IsInRole("Admin") && controllerName == "Delivery")
+{
+    <partial name="_AdminMenu" />
+}
+@RenderBody()

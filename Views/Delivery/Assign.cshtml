@@ -1,0 +1,96 @@
+@model HelmoBilite.ViewModel.DeliveryWithAssignation
+
+@{
+    ViewData["Title"] = "Assign";
+    Layout = "~/Views/Shared/_DeliveryLayout.cshtml";
+    var error = TempData["ErrorString"] as string;
+    string errorMessage = error ?? "";
+}
+<h1>Assign Delivery</h1>
+<h4 class="text-warning">@errorMessage </h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Delivery.Weight) (KG)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Delivery.WantedStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Delivery.WantedEndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Delivery.PickUpAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Delivery.DeliveryAddress)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+                @Html.DisplayFor(model => model.Delivery.Weight) (KG)
+            </th>
+            <th>
+                @Html.DisplayFor(model => model.Delivery.WantedStartDate)
+            </th>
+            <th>
+                @Html.DisplayFor(model => model.Delivery.WantedEndDate)
+            </th>
+            <th>
+                @Html.DisplayFor(model => model.Delivery.PickUpAddress)
+            </th>
+            <th>
+                @Html.DisplayFor(model => model.Delivery.DeliveryAddress)
+            </th>
+        </tr>
+        
+        <form method="post" asp-controller="Delivery" asp-action="Assign">
+        <tr>
+            <td>
+                <div class="form-group">
+                    <input type="hidden" name="DeliveryId" value=@Model.Delivery.Id />
+                    <label for="truckSelect" class="form-label mt-4">Truck</label>
+                    <select class="form-select" id="truckSelect" name="TruckId">
+                        <option value="">-- Select a Truck --</option>
+                            @if(Model.Trucks != null)
+                            {
+                                @foreach (var truck in Model.Trucks)
+                                {
+                                <option value="@truck.Id">@truck.Brand | @truck.Model (@truck.Type)</option>
+                                }
+                            }
+                    </select>
+                </div>
+            </td>
+            <td>
+                <div class="form-group">
+                    <label for="driverSelect" class="form-label mt-4">Driver</label>
+                    <select class="form-select" id="driverSelect" name="DriverId">
+                        <option value="">-- Select a Driver --</option>
+                            @if (Model.Drivers != null)
+                            {
+                                @foreach (var driver in Model.Drivers)
+                                {
+                                <option value="@driver.Id">@driver.FirstName @driver.LastName</option>
+                                }
+                            }
+                        
+                    </select>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </td>
+        </tr>
+        </form>
+        
+    </tbody>
+</table>
+<!--TODO VERIFY BINDING WITH POST METHOD-->
+<!--TODO ADD SCRIPT TO CHANGE SELECT BASED ON VALUE OF OTHER SELECT-->

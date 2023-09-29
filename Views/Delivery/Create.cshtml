@@ -1,0 +1,201 @@
+@using Microsoft.IdentityModel.Tokens
+@model HelmoBilite.ViewModel.DeliveryViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Delivery</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Delivery" asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Weight" class="control-label"></label>
+                <input asp-for="Weight" class="form-control" />
+                <span asp-validation-for="Weight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WantedStartDate" class="control-label"></label>
+                <input asp-for="WantedStartDate" class="form-control" />
+                <span asp-validation-for="WantedStartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WantedEndDate" class="control-label"></label>
+                <input asp-for="WantedEndDate" class="form-control" />
+                <span asp-validation-for="WantedEndDate" class="text-danger"></span>
+            </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAddress">
+                Pick Up Address 
+                <span id="deliveryStartAddress">
+                </span>
+                
+            </button>
+            <div style="display: none">
+                <input id="hiddenStartAddress" asp-for="PickUpAddress" class="form-control" />
+                <span asp-validation-for="PickUpAddress" class="text-danger"></span>
+            </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalEndAddress">
+                Delivery Address
+                <span id="deliveryEndAddress">
+                </span>
+            </button>
+            <div style="display: none">
+                <input id="hiddenEndAddress" asp-for="DeliveryAddress" class="form-control" />
+                <span asp-validation-for="DeliveryAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+                <input asp-for="Content" class="form-control" />
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="modal fade" id="modalAddress" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Complete your address</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <label for="houseNumber" class="form-label">House Number</label>
+                <input id="houseNumber" class="form-control" type="text" placeholder="e.g. 4" required/>
+                    
+                <label for="street" class="form-label">Street</label>
+                <input id="street" class="form-control" type="text" placeholder="e.g. Privet Drive" required/>
+
+                <label for="city" class="form-label">City</label>
+                <input id="city" class="form-control" type="text" placeholder="e.g. London" required/>
+                    
+                <label for="zipCode" class="form-label">Zip Code</label>
+                <input id="zipCode" class="form-control" type="text" placeholder="e.g. BD22 7JF" required/>
+                    
+                <label for="country" class="form-label">Country</label>
+                <select id="country" class="form-control" required>
+                    <option value="">Select a country</option>
+                </select>
+                <!--<input id="country" class="form-control" type="text" placeholder="e.g. United Kingdom" required/>-->
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" type="button" onclick="captureStartAddress()" data-bs-dismiss="modal">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalEndAddress" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Complete your address</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <label for="houseNumber2" class="form-label">House Number</label>
+                    <input id="houseNumber2" class="form-control" type="text" placeholder="e.g. 4" required/>
+                    
+                    <label for="street2" class="form-label">Street</label>
+                    <input id="street2" class="form-control" type="text" placeholder="e.g. Privet Drive" required/>
+
+                    <label for="city2" class="form-label">City</label>
+                    <input id="city2" class="form-control" type="text" placeholder="e.g. London" required/>
+                    
+                    <label for="zipCode2" class="form-label">Zip Code</label>
+                    <input id="zipCode2" class="form-control" type="text" placeholder="e.g. BD22 7JF" required/>
+                    
+                    <label for="country" class="form-label">Country</label>
+                    <select id="country2" class="form-control" required>
+                        <option value="">Select a country</option>
+                    </select>
+                    <!--<input id="country" class="form-control" type="text" placeholder="e.g. United Kingdom" required/>-->
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" type="button" onclick="captureEndAddress()" data-bs-dismiss="modal">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+<script>
+    var countrySelect = document.getElementById("country");
+    
+    fetch("https://restcountries.com/v2/all")
+      .then(response => response.json())
+      .then(data => {
+        data.forEach(country => {
+          var option = document.createElement("option");
+          option.value = country.alpha2Code;
+          option.textContent = country.name;
+          countrySelect.appendChild(option);
+        });
+      })
+      .catch(error => {
+        console.log("Error fetching country data:", error);
+      });
+    
+    
+    var countrySelect2 = document.getElementById("country2");
+        
+        fetch("https://restcountries.com/v2/all")
+          .then(response => response.json())
+          .then(data => {
+            data.forEach(country => {
+              var option = document.createElement("option");
+              option.value = country.alpha2Code;
+              option.textContent = country.name;
+              countrySelect2.appendChild(option);
+            });
+          })
+          .catch(error => {
+            console.log("Error fetching country data:", error);
+          });
+    </script>
+
+<script>
+
+    function captureStartAddress(){
+        var houseNumber = document.getElementById("houseNumber").value;
+        var street = document.getElementById("street").value;
+        var city = document.getElementById("city").value;
+        var zipCode = document.getElementById("zipCode").value;
+        var country = document.getElementById("country").value; 
+        
+        
+        document.getElementById("hiddenStartAddress").value = houseNumber + " " + street + ", " + city + ", " + zipCode + ", " + country;
+        document.getElementById("deliveryStartAddress").textContent = ": "+ houseNumber + " " + street + ", " + city + ", " + zipCode + ", " + country;
+
+        }
+        
+    function captureEndAddress(){
+        var houseNumber = document.getElementById("houseNumber2").value;
+        var street = document.getElementById("street2").value;
+        var city = document.getElementById("city2").value;
+        var zipCode = document.getElementById("zipCode2").value;
+        var country = document.getElementById("country2").value; 
+        
+        
+        document.getElementById("hiddenEndAddress").value = houseNumber + " " + street + ", " + city + ", " + zipCode + ", " + country;
+        document.getElementById("deliveryEndAddress").textContent = ": "+ houseNumber + " " + street + ", " + city + ", " + zipCode + ", " + country;
+        }
+</script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

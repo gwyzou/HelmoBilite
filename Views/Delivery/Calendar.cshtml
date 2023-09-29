@@ -1,0 +1,209 @@
+﻿@model IEnumerable<HelmoBilite.Models.Delivery>
+@{
+    ViewData["Title"] = "Calendar";
+    Layout = "~/Views/Delivery/_AdminMenuLayout.cshtml";
+    DateTime currentDate = DateTime.Now;
+    DayOfWeek currentDayOfWeek = currentDate.DayOfWeek;
+    DateTime startOfWeek = currentDate.AddDays(-(int)currentDayOfWeek - (int)DayOfWeek.Sunday).Date;
+    DateTime endOfWeek = (currentDate.AddDays(6 - (int)currentDayOfWeek).Date).Date.AddDays(1).AddTicks(-1);
+}
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1>Calendar</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>...</th>
+                        @for (int i = 0; i < 7; i++)
+                        {
+                            DateTime day = startOfWeek.AddDays(i);
+                            <th>@day.DayOfWeek | @day.Day</th>
+                        }
+                        <th>...</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        DateTime startDate = item.WantedStartDate;
+                        
+                        DateTime endDate = item.WantedEndDate;
+                        
+
+                        //Case started before the week and ends during the week
+                        @if (startDate < startOfWeek && endDate > startOfWeek && endDate <= endOfWeek)
+                        {
+                            int numberOfDaysOfLeftToDo = (endDate.Date - startOfWeek).Days + 1;
+                            int numberWithDots = numberOfDaysOfLeftToDo + 1;
+
+                            <tr>
+                            <td colspan="@numberWithDots">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width:100%"></div>
+                                    </div>
+                            </td>
+                                <td>
+                                    <!-- link to the details page for the given Delivery-->
+                                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+
+                                </td>
+                        </tr>
+                        }
+                        //Case started before the week and ends after the week
+                        @if (startDate < startOfWeek && endDate > endOfWeek)
+                        {
+                            <tr>
+                                <td colspan="9">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width:100%"></div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+
+                                </td>
+                            </tr>
+                        }
+                        //Case started during the week and ends during the week
+                        @if (startDate >= startOfWeek && startDate < endOfWeek && endDate > startDate && endDate <= endOfWeek)
+                        {
+                            int firstPos = (int)startDate.DayOfWeek;
+                            int lastPos = (int)endDate.DayOfWeek;
+
+                            <tr>
+                                @for(int i =0;i<firstPos+1;i++)
+                                {
+                                    <td></td>
+                                }
+                                
+                                <td colspan="@(lastPos-firstPos+1)">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width:100%"></div>
+                                    </div>
+                                </td>
+                                
+                                @for(int i=0; i <9-(lastPos-firstPos)-firstPos-1-1; i++)
+                                {
+                                    <td></td>
+                                }
+                                <td>
+                                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+
+                                </td>
+                            </tr>
+                            
+                        }
+                        //Case started during the week and ends after the week
+                        @if (startDate >= startOfWeek && startDate < endOfWeek && endDate > endOfWeek)
+                        {
+                            int firstPos = (int)startDate.DayOfWeek;
+                            int lastPos = (int)endDate.DayOfWeek;
+
+                            <tr>
+                                @for (int i = 0; i < firstPos + 1; i++)
+                                {
+                                    <td></td>
+                                }
+
+                                <td colspan="@(9-firstPos-1)">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width:100%"></div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="itemModal" tabindex="-1" aria-labelledby="itemModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="itemModalLabel">Item Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <label> PickUp Date :
+                    <span id="pickUpDate"> pickUp Date </span>
+                </label><br />
+                <label> Delivery Date :
+                    <span id="deliveryDate"> delivery Date </span>
+                </label><br />
+                <label> PickUp Location :
+                    <span id="pickUpLocation"> pick up location </span>
+                </label><br />
+                <label> Delivery Location :
+                    <span id="deliveryLocation"> delivery location</span>
+                </label><br />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        $('#openModalBtn').click(function () {
+            // Make the AJAX request to retrieve deliveries
+            $.ajax({
+                url: '/ControllerName/GetDeliveries',
+                data: { driverId: 'YourDriverId' }, // Replace 'YourDriverId' with the actual driver ID
+                dataType: 'json',
+                success: function (data) {
+                    // Populate the modal with the retrieved data
+                    if (data && data.length > 0) {
+                        var delivery = data[0]; // Assuming you only need to display the first delivery
+    
+                        // Set the values in the modal
+                        $('#pickUpDate').text(delivery.pickUpDate);
+                        $('#deliveryDate').text(delivery.deliveryDate);
+                        $('#pickUpLocation').text(delivery.pickUpLocation);
+                        $('#deliveryLocation').text(delivery.deliveryLocation);
+    
+                        // Open the modal
+                        $('#itemModal').modal('show');
+                    }
+                },
+                error: function (xhr, status, error) {
+                    // Handle error if the AJAX request fails
+                    console.error(xhr.responseText);
+                }
+            });
+        });
+    });
+    /*$(document).ready(function () {
+        $('#itemModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget); // Button that triggered the modal
+            var itemId = button.data('item-id'); // Retrieve the item ID
+
+            // Make an AJAX request or perform any other logic to retrieve the item details based on the ID
+            var itemDetails = "Item details for ID " + itemId;
+
+            // Update the modal's content with the retrieved item details
+            var modal = $(this);
+            modal.find('#test').text(itemDetails);
+            modal.find('.modal-body').text(itemDetails);
+        });
+    });*/
+</script>

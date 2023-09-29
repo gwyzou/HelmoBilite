@@ -1,0 +1,245 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1 class="text-center">@ViewData["Title"]</h1>
+<!--TODO add data into the form ++ do the transition with radio button for choosing client type-->
+<div class="align-items-center">
+    <h2 class="text-center">Create a new account.</h2>
+    <hr />
+    <div class="text-center">
+        <input type="radio" name="formTrigger" value="client" onchange="showForm()" />
+        <label for="clientForm" style="margin-right: 1rem">Client</label>
+        <input type="radio" name="formTrigger" value="dispatcher" onchange="showForm()" />
+        <label for="dispatcherForm" style="margin-right: 1rem">Dispatcher</label>
+        <input type="radio" name="formTrigger" value="driver" onchange="showForm()" />
+        <label for="driverForm">Driver</label>
+    </div>
+
+    <!--TODO look if could reuse the code instead of using the same code multiple times -->
+    <form id="clientForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" style="display: none">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-floating">
+            <input asp-for="Input.ModelClient.NameCompany" class="form-control" autocomplete="NameCompany" aria-required="true" />
+            <label asp-for="Input.ModelClient.NameCompany"></label>
+            <span asp-validation-for="Input.ModelClient.NameCompany" class="text-danger"></span>
+        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAddress">Company Address <span id="companyAddress"></span></button>
+        <div style="display: none">
+            <input id="hiddenAddress" asp-for="Input.ModelClient.Adress" class="form-control "/>
+            <span asp-validation-for="Input.ModelClient.Adress"></span>
+        </div>
+        <br/>
+        <hr/>
+        <div class="form-floating">
+            <input asp-for="Input.Name" class="form-control" autocomplete="Name" aria-required="true" />
+            <label asp-for="Input.Name"></label>
+            <span asp-validation-for="Input.Name" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <input asp-for="Input.Surname" class="form-control" autocomplete="Surname" aria-required="true" />
+            <label asp-for="Input.Surname"></label>
+            <span asp-validation-for="Input.Surname" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
+            <label asp-for="Input.Email"></label>
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
+            <label asp-for="Input.Password"></label>
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+            <label asp-for="Input.ConfirmPassword"></label>
+            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+        </div>
+        <input type="hidden" name="formName" value="Client" />
+        <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+    </form>
+
+    <div class="modal fade" id="modalAddress" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Complete your address</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <label for="houseNumber" class="form-label">House Number</label>
+                    <input id="houseNumber" class="form-control" type="text" placeholder="e.g. 4" required/>
+                    
+                    <label for="street" class="form-label">Street</label>
+                    <input id="street" class="form-control" type="text" placeholder="e.g. Privet Drive" required/>
+
+                    <label for="city" class="form-label">City</label>
+                    <input id="city" class="form-control" type="text" placeholder="e.g. London" required/>
+                    
+                    <label for="zipCode" class="form-label">Zip Code</label>
+                    <input id="zipCode" class="form-control" type="text" placeholder="e.g. BD22 7JF" required/>
+                    
+                    <label for="country" class="form-label">Country</label>
+                    <select id="country" class="form-control" required>
+                        <option value="">Select a country</option>
+                    </select>
+                    <!--<input id="country" class="form-control" type="text" placeholder="e.g. United Kingdom" required/>-->
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" type="button" onclick="captureAddress()" data-bs-dismiss="modal">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    var countrySelect = document.getElementById("country");
+    
+    fetch("https://restcountries.com/v2/all")
+      .then(response => response.json())
+      .then(data => {
+        data.forEach(country => {
+          var option = document.createElement("option");
+          option.value = country.alpha2Code;
+          option.textContent = country.name;
+          countrySelect.appendChild(option);
+        });
+      })
+      .catch(error => {
+        console.log("Error fetching country data:", error);
+      });
+    </script>
+    
+    <form id="driverForm" method="post" style="display: none">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-floating">
+            <input asp-for="Input.ModelDriver.Matricul" class="form-control" autocomplete="Matricul" aria-required="true" />
+            <label asp-for="Input.ModelDriver.Matricul"></label>
+            <span asp-validation-for="Input.ModelDriver.Matricul" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <input asp-for="Input.Name" class="form-control" autocomplete="Name" aria-required="true" />
+            <label asp-for="Input.Name"></label>
+            <span asp-validation-for="Input.Name" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <input asp-for="Input.Surname" class="form-control" autocomplete="Surname" aria-required="true" />
+            <label asp-for="Input.Surname"></label>
+            <span asp-validation-for="Input.Surname" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating">
+            <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
+            <label asp-for="Input.Email"></label>
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
+            <label asp-for="Input.Password"></label>
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+            <label asp-for="Input.ConfirmPassword"></label>
+            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+        </div>
+        <div class="text-center">
+            <label asp-for="Input.ModelDriver.Licence"></label>
+            <br />
+            @foreach (var value in Enum.GetValues(typeof(DriverLicence)))
+            {
+                <label>
+                    @Html.RadioButtonFor(m => m.Input.ModelDriver.Licence, value, new { @class = "radio-button" })
+                    @value
+                </label>
+            }
+            <br />
+            <span asp-validation-for="Input.ModelDriver.Licence" class="text-danger"></span>
+        </div>
+        <input type="hidden" name="formName" value="Driver" />
+        <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+    </form>
+
+    <form id="dispatcherForm" method="post" style="display: none">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-floating">
+            <input asp-for="Input.ModelDispatcher.Matricul" class="form-control" autocomplete="Matricul" aria-required="true" />
+            <label asp-for="Input.ModelDispatcher.Matricul"></label>
+            <span asp-validation-for="Input.ModelDispatcher.Matricul" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <input asp-for="Input.Name" class="form-control" autocomplete="Name" aria-required="true" />
+            <label asp-for="Input.Name"></label>
+            <span asp-validation-for="Input.Name" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <input asp-for="Input.Surname" class="form-control" autocomplete="Surname" aria-required="true" />
+            <label asp-for="Input.Surname"></label>
+            <span asp-validation-for="Input.Surname" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
+            <label asp-for="Input.Email"></label>
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
+            <label asp-for="Input.Password"></label>
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+            <label asp-for="Input.ConfirmPassword"></label>
+            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+        </div>
+        <div class="text-center">
+            <label asp-for="Input.ModelDispatcher.Studies"></label>
+            <br />
+            @foreach (var value in Enum.GetValues(typeof(HelmoBilite.Models.Diploma)))
+            {
+                <label>
+                    @Html.RadioButtonFor(m => m.Input.ModelDispatcher.Studies, value, new { @class = "radio-button" })
+                    @value
+                </label>
+            }
+            <br />
+            <span asp-validation-for="Input.ModelDispatcher.Studies" class="text-danger"></span>
+        </div>
+        <input type="hidden" name="formName" value="Dispatcher" />
+        <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+    </form>
+</div>
+
+<script>
+    function showForm(){
+        var selection = document.querySelector('input[name="formTrigger"]:checked');
+        var selectedValue = selection.value;
+
+        document.getElementById("driverForm").style.display = "none";
+        document.getElementById("dispatcherForm").style.display = "none";
+        document.getElementById("clientForm").style.display = "none";
+
+        document.getElementById(selectedValue + "Form").style.display = "block";
+    }
+    
+    function captureAddress(){
+        var houseNumber = document.getElementById("houseNumber").value;
+        var street = document.getElementById("street").value;
+        var city = document.getElementById("city").value;
+        var zipCode = document.getElementById("zipCode").value;
+        var country = document.getElementById("country").value; 
+        
+        
+        document.getElementById("companyAddress").textContent = ": " + houseNumber + " " + street + ", " + city + ", " + zipCode + ", " + country;
+        document.getElementById("hiddenAddress").value = houseNumber + " " + street + ", " + city + ", " + zipCode + ", " + country;
+        
+        }
+</script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

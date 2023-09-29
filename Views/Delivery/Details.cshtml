@@ -1,0 +1,75 @@
+@model HelmoBilite.Models.Delivery
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Delivery</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Weight)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WantedStartDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WantedStartDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WantedEndDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WantedEndDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PickUpAddress)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PickUpAddress)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DeliveryAddress)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DeliveryAddress)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+        @if(Model.Status == HelmoBilite.Models.Status.Success)
+        {
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Comment)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Comment)
+            </dd>
+        }
+        @if (Model.Status == HelmoBilite.Models.Status.Cancelled)
+        {
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.CancelReason)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.CancelReason)
+            </dd>
+        }
+    </dl>
+</div>
+<div>
+    @if(Model.Status == Status.Unassigned && User.IsInRole("Client"))
+    {
+        <a asp-action="Edit" asp-route-id="@Model?.Id">Edit |</a> 
+    }
+    <a asp-action="Index">Back to List</a>
+</div>

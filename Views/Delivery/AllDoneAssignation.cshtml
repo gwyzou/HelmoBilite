@@ -1,0 +1,13 @@
+﻿@model IEnumerable<HelmoBilite.Models.Delivery>
+
+
+@{
+
+    ViewData["Title"] = "Done Assignation";
+    Layout = "~/Views/Shared/_DeliveryLayout.cshtml";
+
+}
+
+<h1>Done Assignation</h1>
+<button class="btn-primary" onclick="window.location.reload();">Refresh the list</button>
+<partial name="_DisplayList" />

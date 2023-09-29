@@ -1,0 +1,357 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HelmoBilite
+build_property.RootNamespace = HelmoBilite
+build_property.ProjectDir = C:\Cloud\2022-2023 Helmo\Q2\B2-UE19-Développement web avancé\trueProj\HelmoBilite\HelmoBilite\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Cloud\2022-2023 Helmo\Q2\B2-UE19-Développement web avancé\trueProj\HelmoBilite\HelmoBilite
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Clients/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Clients/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Clients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Clients/_ClientDisplayData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xfQ2xpZW50RGlzcGxheURhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/AllDone.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcQWxsRG9uZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/AllDoneAssignation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcQWxsRG9uZUFzc2lnbmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/AllWaitingAssignation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcQWxsV2FpdGluZ0Fzc2lnbmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/AllWaitingToBeDone.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcQWxsV2FpdGluZ1RvQmVEb25lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/Assign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcQXNzaWduLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/Calendar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcQ2FsZW5kYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/CancelDelivery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcQ2FuY2VsRGVsaXZlcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/ClientAllPending.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcQ2xpZW50QWxsUGVuZGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/ClientAllTerminated.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcQ2xpZW50QWxsVGVybWluYXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/ConfirmDelivery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcQ29uZmlybURlbGl2ZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/Statistics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcU3RhdGlzdGljcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/_AdminMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcX0FkbWluTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/_AdminMenuLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcX0FkbWluTWVudUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Delivery/_DisplayList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlcX0Rpc3BsYXlMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Dispas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Dispas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcGFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Dispas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Dispas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Dispas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Drivers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Drivers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Drivers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Shared/_DeliveryLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EZWxpdmVyeUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Shared/_ManageNavDelivery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYW5hZ2VOYXZEZWxpdmVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Truck/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1Y2tcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Truck/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1Y2tcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Truck/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1Y2tcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Truck/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1Y2tcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Truck/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJ1Y2tcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Cloud/2022-2023 Helmo/Q2/B2-UE19-Développement web avancé/trueProj/HelmoBilite/HelmoBilite/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hodixp6z6r

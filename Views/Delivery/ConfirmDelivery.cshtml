@@ -1,0 +1,25 @@
+﻿@model HelmoBilite.Models.Delivery
+
+@{
+    ViewData["Title"] = "Confirm";
+}
+
+<h1>Confirm Delivery</h1>
+
+<h4>Delivery</h4>
+
+<h5> Do You Want To Leave A Comment ?</h5>
+
+<form method="post" asp-controller="Delivery" asp-action="ConfirmDelivery">
+
+
+
+<div class="form-group">
+        <label for="truckSelect" class="form-label mt-4">Comment</label>
+        <textarea class="form-control" id="truckSelect" name="Comment" rows="3"></textarea>
+
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Confirm delivery</button>
+</form>
+<a asp-action="Index">Cancel And go back to list</a>

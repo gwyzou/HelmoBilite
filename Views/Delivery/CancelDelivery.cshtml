@@ -1,0 +1,34 @@
+﻿@using System.Reflection;
+@using System.ComponentModel.DataAnnotations;
+@model HelmoBilite.Models.Delivery
+
+@{
+    ViewData["Title"] = "Cancel";
+}
+
+<h1>Cancel Delivery</h1>
+
+<h4>Delivery</h4>
+<h5>Tell daddy why you where bad</h5>
+
+<form method="post" asp-controller="Delivery" asp-action="CancelDelivery">
+    <div class="form-group">
+        <label for="truckSelect" class="form-label mt-4">Reason</label>
+        <select class="form-select" id="truckSelect" name="TruckId">
+            <option value="">-- Select a Reason --</option>
+            @foreach (var cancel in Enum.GetValues(typeof(CancelReason)))
+            {
+                var value =cancel.GetType().GetMember(cancel.ToString()).First().GetCustomAttribute<DisplayAttribute>()?.Name;
+                <option value="@cancel">@value</option>
+            }
+
+        </select>
+
+            
+
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<a  asp-action="Index">Never Mind</a>

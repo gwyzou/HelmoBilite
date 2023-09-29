@@ -1,0 +1,97 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>aspnet-HelmoBilite-E9BC2A22-031E-4391-89D4-0BD14825BE58</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Bogus" Version="34.0.2" />
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.16" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.16" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.16" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.16" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Areas\" />
+      <Folder Include="Migrations\" />
+      <Folder Include="wwwroot\images\ProfilePicture\FromUs\" />
+      <Folder Include="wwwroot\images\trucks\trucksPicture\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Migrations\20230511103553_Init.cs" />
+      <Compile Remove="Migrations\20230511103553_Init.Designer.cs" />
+      <Compile Update="Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.cs">
+        <DependentUpon>Disable2fa.cshtml</DependentUpon>
+      </Compile>
+      <Compile Update="Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.cs">
+        <DependentUpon>DeletePersonalData.cshtml</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="Views\Home\images\collaborator\chu.png">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+      <Content Update="Views\Home\images\collaborator\abbott.png">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+      <Content Update="Views\Home\images\collaborator\uliege.png">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+      <Content Update="Views\Home\images\collaborator\astonmartin.png">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+      <Content Update="Views\Home\images\collaborator\garudalinux.png">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+      <Content Update="Views\Home\images\collaborator\image-removebg-preview(1).png">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+      <Content Update="Views\Home\images\trucks\ca_rounded.jpg">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+      <Content Update="Views\Home\images\trucks\fleet_truck.jpg">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+      <Content Update="Views\Home\images\trucks\fleet_truck_rounded.jpg">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+      <Content Update="Views\Home\images\logo.png">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+      <Content Remove="wwwroot\images\ProfilePicture\FromUs\dispatcher_profile.png" />
+      <Content Remove="wwwroot\images\ProfilePicture\FromUs\client_profile.png" />
+      <Content Remove="wwwroot\images\ProfilePicture\FromUs\driver_profile.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Delivery\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Delivery\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Delivery\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Delivery\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Delivery\Index.cshtml" />
+    </ItemGroup>
+
+</Project>

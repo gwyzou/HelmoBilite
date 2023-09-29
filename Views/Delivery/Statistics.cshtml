@@ -1,0 +1,113 @@
+﻿@model HelmoBilite.ViewModel.StatisticsViewModel
+
+@{
+    ViewData["Title"] = "Statistics";
+    Layout = "~/Views/Shared/_DeliveryLayout.cshtml";
+
+    
+}
+
+<h1>Delivery Statistics</h1>
+
+<table class="table">
+<thead>
+        <tr>
+            <th>
+                Total Deliveries
+            </th>
+            <th>
+                Unassigned Deliveries
+            </th>
+            <th>
+                Pending Deliveries
+            </th>
+            <th>
+                Canceled Deliveries
+            </th>
+            <th>
+                Succeded Deliveries
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    
+    <tbody>
+        <tr>
+            <th>
+                @Model.TotalDeliveries
+            </th>
+            <th>
+                @Model.UnAssignedDeliveries
+            </th>
+            <th>
+                @Model.PendingDeliveries
+            </th>
+            <th>
+                @Model.CanceleddDeliveries
+            </th>
+            <th>
+                @Model.SuccededDeliveries
+            </th>
+            <th></th>
+        </tr>
+    </tbody>
+    <tfoot>
+        <form method="post" asp-controller="Delivery" asp-action="Statistics" class="form-inline">
+        <tr>
+            <td>
+                <div class="form-group">
+                    
+                    <label for="driverSelect" class="mr-2">Driver:</label>
+                    <select class="form-select" id="driverSelect" name="DriverId" asp-for="IdDriver">
+                        <option value="">-- Select a Driver --</option>
+                            @if(Model.Drivers != null)
+                            {
+                                @foreach (var driver in Model.Drivers)
+                                {
+                                <option value="@driver.Id">@driver.FirstName @driver.LastName </option>
+                                }
+                            }
+                    </select>
+                </div>
+            </td>
+            <td>
+                <label for="date" class="mr-2">Start Date:</label>
+                <input asp-for="WantedStartDate" type="date" id="date" name="WantedStartDate" class="form-control mr-2" />
+            </td>
+            <td>
+                <label for="date" class="mr-2">End Date:</label>
+                <input asp-for="WantedEndDate" type="date" id="date" name="WantedEndDate" class="form-control mr-2" />
+            </td>
+            <td>
+                <div class="form-group">
+
+                    <label for="ClientSelect" class="mr-2">Client:</label>
+                    <select class="form-select" id="ClientSelect" name="ClientId" asp-for="IdClient">
+                        <option value="">-- Select a Client --</option>
+                            @if(Model.Clients != null)
+                            {
+                                @foreach (var client in Model.Clients)
+                                {
+                                <option value="@client.Id">@client.CompanyName </option>
+                                }
+                            }
+
+                    </select>
+                </div>
+            </td>
+            
+
+            <td>
+
+                <button name="subm" type="submit" class="form-control mr-2 btn btn-primary">Search</button>
+            </td>
+        </tr>
+        </form>
+    </tfoot>
+</table>
+@if(Model.Delivery != null)
+{
+    <partial name="_DisplayList" model="@Model.Delivery" />
+}
+
+

@@ -1,0 +1,101 @@
+﻿@model IEnumerable<HelmoBilite.Models.Delivery>
+
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Weight) (KG)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WantedStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WantedEndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PickUpAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeliveryAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            @if(User.IsInRole("Dispatcher"))
+            {
+                <th>
+                    @Html.DisplayNameFor(model => model.Driver)
+                </th>
+            }
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr @(item.Client.Tag == Tag.BadPayer && User.IsInRole("Dispatcher") ? "class=table-danger" : "")>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Weight)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Content)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.WantedStartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.WantedEndDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PickUpAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DeliveryAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                @if (User.IsInRole("Dispatcher"))
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem =>(item.Driver.FirstName  ))
+                        @Html.DisplayFor(modelItem =>(item.Driver.LastName  ))
+                    </td>
+                }
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.Comment)
+                </td>
+                
+                <td>
+                    @if (item.Status == Status.Unassigned && User.IsInRole("Client"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id"> Edit | </a>
+
+                    }
+                    @if (item.Status == Status.Pending && User.IsInRole("Driver"))
+                    {
+                        <a asp-action="ConfirmDelivery" asp-route-id="@item.Id"> Confirm | </a>
+                        <a asp-action="CancelDelivery" asp-route-id="@item.Id"> Cancel | </a>
+
+                    }
+                    @if (item.Status == Status.Unassigned && User.IsInRole("Dispatcher") && item.Client.Tag != Tag.BadPayer)
+                    {
+                        <a asp-action="Assign" asp-route-id="@item.Id"> Assign | </a>
+                    }
+
+                    <a asp-action="Details" asp-route-id="@item.Id"> Details </a>
+                    @if (item.Status == Status.Unassigned && User.IsInRole("Client"))
+                    {
+                        <a asp-action="Delete" asp-route-id="@item.Id"> | Delete </a>
+                    }
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
